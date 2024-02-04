@@ -52,10 +52,11 @@
             // 
             // button0
             // 
+            button0.Anchor = AnchorStyles.None;
             button0.Font = new Font("Times New Roman", 12F);
             button0.Location = new Point(180, 259);
             button0.Name = "button0";
-            button0.Size = new Size(49, 82);
+            button0.Size = new Size(54, 82);
             button0.TabIndex = 0;
             button0.Text = "0";
             button0.UseVisualStyleBackColor = true;
@@ -63,10 +64,11 @@
             // 
             // button1
             // 
+            button1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             button1.Font = new Font("Times New Roman", 12F);
             button1.Location = new Point(15, 303);
             button1.Name = "button1";
-            button1.Size = new Size(49, 38);
+            button1.Size = new Size(54, 38);
             button1.TabIndex = 1;
             button1.Text = "1";
             button1.UseVisualStyleBackColor = true;
@@ -74,10 +76,11 @@
             // 
             // button2
             // 
+            button2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             button2.Font = new Font("Times New Roman", 12F);
             button2.Location = new Point(70, 303);
             button2.Name = "button2";
-            button2.Size = new Size(49, 38);
+            button2.Size = new Size(54, 38);
             button2.TabIndex = 2;
             button2.Text = "2";
             button2.UseVisualStyleBackColor = true;
@@ -85,10 +88,11 @@
             // 
             // button3
             // 
+            button3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             button3.Font = new Font("Times New Roman", 12F);
             button3.Location = new Point(125, 303);
             button3.Name = "button3";
-            button3.Size = new Size(49, 38);
+            button3.Size = new Size(54, 38);
             button3.TabIndex = 3;
             button3.Text = "3";
             button3.UseVisualStyleBackColor = true;
@@ -96,10 +100,11 @@
             // 
             // button4
             // 
+            button4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             button4.Font = new Font("Times New Roman", 12F);
             button4.Location = new Point(15, 259);
             button4.Name = "button4";
-            button4.Size = new Size(49, 38);
+            button4.Size = new Size(54, 38);
             button4.TabIndex = 4;
             button4.Text = "4";
             button4.UseVisualStyleBackColor = true;
@@ -107,10 +112,11 @@
             // 
             // button5
             // 
+            button5.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             button5.Font = new Font("Times New Roman", 12F);
             button5.Location = new Point(70, 259);
             button5.Name = "button5";
-            button5.Size = new Size(49, 38);
+            button5.Size = new Size(54, 38);
             button5.TabIndex = 5;
             button5.Text = "5";
             button5.UseVisualStyleBackColor = true;
@@ -118,10 +124,11 @@
             // 
             // button6
             // 
+            button6.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             button6.Font = new Font("Times New Roman", 12F);
             button6.Location = new Point(125, 259);
             button6.Name = "button6";
-            button6.Size = new Size(49, 38);
+            button6.Size = new Size(54, 38);
             button6.TabIndex = 6;
             button6.Text = "6";
             button6.UseVisualStyleBackColor = true;
@@ -129,10 +136,11 @@
             // 
             // button7
             // 
+            button7.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             button7.Font = new Font("Times New Roman", 12F);
             button7.Location = new Point(15, 215);
             button7.Name = "button7";
-            button7.Size = new Size(49, 38);
+            button7.Size = new Size(54, 38);
             button7.TabIndex = 7;
             button7.Text = "7";
             button7.UseVisualStyleBackColor = true;
@@ -140,10 +148,11 @@
             // 
             // button8
             // 
+            button8.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             button8.Font = new Font("Times New Roman", 12F);
             button8.Location = new Point(70, 215);
             button8.Name = "button8";
-            button8.Size = new Size(49, 38);
+            button8.Size = new Size(54, 38);
             button8.TabIndex = 8;
             button8.Text = "8";
             button8.UseVisualStyleBackColor = true;
@@ -151,10 +160,11 @@
             // 
             // button9
             // 
+            button9.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             button9.Font = new Font("Times New Roman", 12F);
             button9.Location = new Point(125, 215);
             button9.Name = "button9";
-            button9.Size = new Size(49, 38);
+            button9.Size = new Size(54, 38);
             button9.TabIndex = 9;
             button9.Text = "9";
             button9.UseVisualStyleBackColor = true;
@@ -162,10 +172,11 @@
             // 
             // buttonPlus
             // 
+            buttonPlus.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             buttonPlus.Font = new Font("Times New Roman", 12F, FontStyle.Bold);
             buttonPlus.Location = new Point(235, 161);
             buttonPlus.Name = "buttonPlus";
-            buttonPlus.Size = new Size(49, 38);
+            buttonPlus.Size = new Size(54, 38);
             buttonPlus.TabIndex = 10;
             buttonPlus.Text = "+";
             buttonPlus.UseVisualStyleBackColor = true;
@@ -173,10 +184,11 @@
             // 
             // buttonMinus
             // 
+            buttonMinus.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             buttonMinus.Font = new Font("Times New Roman", 12F, FontStyle.Bold);
             buttonMinus.Location = new Point(180, 161);
             buttonMinus.Name = "buttonMinus";
-            buttonMinus.Size = new Size(49, 38);
+            buttonMinus.Size = new Size(54, 38);
             buttonMinus.TabIndex = 11;
             buttonMinus.Text = "-";
             buttonMinus.UseVisualStyleBackColor = true;
@@ -184,10 +196,11 @@
             // 
             // buttonMultiply
             // 
+            buttonMultiply.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             buttonMultiply.Font = new Font("Times New Roman", 12F, FontStyle.Bold);
             buttonMultiply.Location = new Point(125, 161);
             buttonMultiply.Name = "buttonMultiply";
-            buttonMultiply.Size = new Size(49, 38);
+            buttonMultiply.Size = new Size(54, 38);
             buttonMultiply.TabIndex = 12;
             buttonMultiply.Text = "*";
             buttonMultiply.UseVisualStyleBackColor = true;
@@ -195,10 +208,11 @@
             // 
             // buttonDivide
             // 
+            buttonDivide.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             buttonDivide.Font = new Font("Times New Roman", 12F, FontStyle.Bold);
             buttonDivide.Location = new Point(70, 161);
             buttonDivide.Name = "buttonDivide";
-            buttonDivide.Size = new Size(49, 38);
+            buttonDivide.Size = new Size(54, 38);
             buttonDivide.TabIndex = 13;
             buttonDivide.Text = "/";
             buttonDivide.UseVisualStyleBackColor = true;
@@ -206,10 +220,11 @@
             // 
             // buttonPoint
             // 
+            buttonPoint.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             buttonPoint.Font = new Font("Times New Roman", 12F, FontStyle.Bold);
             buttonPoint.Location = new Point(180, 214);
             buttonPoint.Name = "buttonPoint";
-            buttonPoint.Size = new Size(49, 38);
+            buttonPoint.Size = new Size(54, 38);
             buttonPoint.TabIndex = 14;
             buttonPoint.Text = ".";
             buttonPoint.UseVisualStyleBackColor = true;
@@ -217,10 +232,11 @@
             // 
             // buttonBackSpace
             // 
+            buttonBackSpace.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             buttonBackSpace.Font = new Font("Times New Roman", 12F, FontStyle.Bold);
             buttonBackSpace.Location = new Point(180, 107);
             buttonBackSpace.Name = "buttonBackSpace";
-            buttonBackSpace.Size = new Size(49, 38);
+            buttonBackSpace.Size = new Size(54, 38);
             buttonBackSpace.TabIndex = 15;
             buttonBackSpace.Text = "C";
             buttonBackSpace.UseVisualStyleBackColor = true;
@@ -228,10 +244,11 @@
             // 
             // buttonCE
             // 
+            buttonCE.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             buttonCE.Font = new Font("Times New Roman", 12F, FontStyle.Bold);
             buttonCE.Location = new Point(235, 107);
             buttonCE.Name = "buttonCE";
-            buttonCE.Size = new Size(49, 38);
+            buttonCE.Size = new Size(54, 38);
             buttonCE.TabIndex = 16;
             buttonCE.Text = "CE";
             buttonCE.UseVisualStyleBackColor = true;
@@ -239,10 +256,11 @@
             // 
             // buttonMod
             // 
+            buttonMod.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             buttonMod.Font = new Font("Times New Roman", 12F, FontStyle.Bold);
             buttonMod.Location = new Point(15, 161);
             buttonMod.Name = "buttonMod";
-            buttonMod.Size = new Size(49, 38);
+            buttonMod.Size = new Size(54, 38);
             buttonMod.TabIndex = 17;
             buttonMod.Text = "%";
             buttonMod.UseVisualStyleBackColor = true;
@@ -250,10 +268,11 @@
             // 
             // buttonEquals
             // 
+            buttonEquals.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             buttonEquals.Font = new Font("Times New Roman", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             buttonEquals.Location = new Point(235, 214);
             buttonEquals.Name = "buttonEquals";
-            buttonEquals.Size = new Size(49, 127);
+            buttonEquals.Size = new Size(54, 127);
             buttonEquals.TabIndex = 18;
             buttonEquals.Text = "=";
             buttonEquals.UseVisualStyleBackColor = true;
@@ -261,17 +280,18 @@
             // 
             // textBoxDataNResult
             // 
+            textBoxDataNResult.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             textBoxDataNResult.Location = new Point(15, 15);
             textBoxDataNResult.Multiline = true;
             textBoxDataNResult.Name = "textBoxDataNResult";
-            textBoxDataNResult.Size = new Size(269, 76);
+            textBoxDataNResult.Size = new Size(274, 76);
             textBoxDataNResult.TabIndex = 19;
             // 
             // CalculatorForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(300, 355);
+            ClientSize = new Size(305, 355);
             Controls.Add(textBoxDataNResult);
             Controls.Add(buttonEquals);
             Controls.Add(buttonMod);

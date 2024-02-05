@@ -5,8 +5,7 @@ namespace CalulatorDesktopApp
         string data;
         int length;
         string operation;
-        double input1, total = 0, input2=0;
-        int initialInput = 0;
+        double total = 0;
         public FormCalculator()
         {
             InitializeComponent();
@@ -14,7 +13,6 @@ namespace CalulatorDesktopApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-
             textBoxResult.Text = textBoxResult.Text + "1";
         }
 
@@ -81,7 +79,6 @@ namespace CalulatorDesktopApp
             textBoxInput.Clear();
             textBoxResult.Clear();
             total = 0;
-            initialInput = 0;
         }
 
         private void buttonPlus_Click(object sender, EventArgs e)
@@ -89,110 +86,42 @@ namespace CalulatorDesktopApp
            
             operation = "+";
             SetTextBoxValues();
-            GetInputValues();
-
-            Calculate();
-            initialInput++;
-        }
-
-        private void GetInputValues()
-        {
-            if (initialInput == 0)
-            {
-                if (textBoxResult.Text == "")
-                {
-                    input1 = 0;
-                }
-                else
-                {
-                    input1 = Convert.ToDouble(textBoxResult.Text);
-                }
-            }
-            else {
-                input2 = Convert.ToDouble(textBoxResult.Text);
-            }
             
-        }
 
-        private void Calculate()
-        {
-            if (initialInput == 0)
-            {
-                if (operation == "+")
-                {
-                    total = input1 + input2;
-                }
-                else if (operation == "*")
-                {
-                    total = input1 * input2;
-                }
-                else if (operation == "/")
-                {
-                    total = input1 / input2;
-                }
-                else if (operation == "-")
-                {
-                    total = input1 - input2;
-                }
-            }
-            else {
-                if (operation == "+")
-                {
-                    total = total + input2;
-                }
-                else if (operation == "*")
-                {
-                    total = total * input2;
-                }
-                else if (operation == "/")
-                {
-                    total = total / input2;
-                }
-                else if (operation == "-")
-                {
-                    total = total - input2;
-                }
-            }
-            textBoxResult.Text = total.ToString();
-            input2 = 0;
         }
 
         private void SetTextBoxValues()
         {
             if (textBoxResult.Text == "")
             {
-                textBoxInput.Text = "0" + operation;
+                textBoxInput.Text = "0";
             }
-            else
-            {
-                textBoxInput.Text = textBoxInput.Text + textBoxResult.Text + operation;
-            }
+            textBoxInput.Text = textBoxInput.Text + textBoxResult.Text + operation;
+            textBoxResult.Clear();
         }
 
         private void buttonMinus_Click(object sender, EventArgs e)
         {
             operation = "-";
             SetTextBoxValues();
-            Calculate();
         }
 
         private void buttonMultiply_Click(object sender, EventArgs e)
         {
             operation = "*";
             SetTextBoxValues();
-            Calculate();
         }
 
         private void buttonDivide_Click(object sender, EventArgs e)
         {
             operation = "/";
             SetTextBoxValues();
-            Calculate();
         }
 
         private void buttonEqual_Click(object sender, EventArgs e)
         {
-            initialInput = 0;
+            textBoxInput.Clear();
+            textBoxResult.Text = total.ToString();
         }
     }
 }

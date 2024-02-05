@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CalulatorDesktopApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+474a709f2a0ed56b21fffb5539423f36d56b6885")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+74a19d58c9f3e7764f64b67779291a256194b04e")]
 [assembly: System.Reflection.AssemblyProductAttribute("CalulatorDesktopApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CalulatorDesktopApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

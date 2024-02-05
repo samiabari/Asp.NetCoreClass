@@ -38,11 +38,15 @@
             button8 = new Button();
             button9 = new Button();
             button0 = new Button();
+            labelInput = new Label();
+            labelResult = new Label();
+            textBoxInput = new TextBox();
+            textBoxResult = new TextBox();
             SuspendLayout();
             // 
             // button1
             // 
-            button1.Location = new Point(58, 120);
+            button1.Location = new Point(15, 219);
             button1.Name = "button1";
             button1.Size = new Size(94, 29);
             button1.TabIndex = 0;
@@ -51,7 +55,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(174, 120);
+            button2.Location = new Point(131, 219);
             button2.Name = "button2";
             button2.Size = new Size(94, 29);
             button2.TabIndex = 1;
@@ -60,7 +64,7 @@
             // 
             // button3
             // 
-            button3.Location = new Point(319, 120);
+            button3.Location = new Point(276, 219);
             button3.Name = "button3";
             button3.Size = new Size(94, 29);
             button3.TabIndex = 2;
@@ -69,7 +73,7 @@
             // 
             // button4
             // 
-            button4.Location = new Point(58, 187);
+            button4.Location = new Point(15, 286);
             button4.Name = "button4";
             button4.Size = new Size(94, 29);
             button4.TabIndex = 3;
@@ -78,7 +82,7 @@
             // 
             // button5
             // 
-            button5.Location = new Point(174, 187);
+            button5.Location = new Point(131, 286);
             button5.Name = "button5";
             button5.Size = new Size(94, 29);
             button5.TabIndex = 4;
@@ -87,7 +91,7 @@
             // 
             // button6
             // 
-            button6.Location = new Point(319, 187);
+            button6.Location = new Point(276, 286);
             button6.Name = "button6";
             button6.Size = new Size(94, 29);
             button6.TabIndex = 5;
@@ -96,7 +100,7 @@
             // 
             // button7
             // 
-            button7.Location = new Point(58, 252);
+            button7.Location = new Point(15, 351);
             button7.Name = "button7";
             button7.Size = new Size(94, 29);
             button7.TabIndex = 6;
@@ -105,7 +109,7 @@
             // 
             // button8
             // 
-            button8.Location = new Point(174, 252);
+            button8.Location = new Point(131, 351);
             button8.Name = "button8";
             button8.Size = new Size(94, 29);
             button8.TabIndex = 7;
@@ -114,7 +118,7 @@
             // 
             // button9
             // 
-            button9.Location = new Point(319, 252);
+            button9.Location = new Point(276, 351);
             button9.Name = "button9";
             button9.Size = new Size(94, 29);
             button9.TabIndex = 8;
@@ -123,18 +127,56 @@
             // 
             // button0
             // 
-            button0.Location = new Point(58, 310);
+            button0.Location = new Point(15, 409);
             button0.Name = "button0";
             button0.Size = new Size(94, 29);
             button0.TabIndex = 9;
             button0.Text = "0";
             button0.UseVisualStyleBackColor = true;
             // 
+            // labelInput
+            // 
+            labelInput.AutoSize = true;
+            labelInput.Location = new Point(15, 9);
+            labelInput.Name = "labelInput";
+            labelInput.Size = new Size(43, 20);
+            labelInput.TabIndex = 10;
+            labelInput.Text = "Input";
+            // 
+            // labelResult
+            // 
+            labelResult.AutoSize = true;
+            labelResult.Location = new Point(15, 101);
+            labelResult.Name = "labelResult";
+            labelResult.Size = new Size(49, 20);
+            labelResult.TabIndex = 11;
+            labelResult.Text = "Result";
+            // 
+            // textBoxInput
+            // 
+            textBoxInput.Location = new Point(15, 48);
+            textBoxInput.Multiline = true;
+            textBoxInput.Name = "textBoxInput";
+            textBoxInput.Size = new Size(370, 34);
+            textBoxInput.TabIndex = 12;
+            // 
+            // textBoxResult
+            // 
+            textBoxResult.Location = new Point(15, 141);
+            textBoxResult.Multiline = true;
+            textBoxResult.Name = "textBoxResult";
+            textBoxResult.Size = new Size(370, 34);
+            textBoxResult.TabIndex = 13;
+            // 
             // FormCalculator
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(529, 450);
+            Controls.Add(textBoxResult);
+            Controls.Add(textBoxInput);
+            Controls.Add(labelResult);
+            Controls.Add(labelInput);
             Controls.Add(button0);
             Controls.Add(button9);
             Controls.Add(button8);
@@ -148,6 +190,7 @@
             Name = "FormCalculator";
             Text = "Calculator";
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -162,5 +205,9 @@
         private Button button8;
         private Button button9;
         private Button button0;
+        private Label labelInput;
+        private Label labelResult;
+        private TextBox textBoxInput;
+        private TextBox textBoxResult;
     }
 }

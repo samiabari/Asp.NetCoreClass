@@ -103,18 +103,21 @@ namespace CalulatorDesktopApp
         private void buttonMinus_Click(object sender, EventArgs e)
         {
             operation = "-";
+            input1 = Convert.ToDouble(textBoxResult.Text);
             SetTextBoxValues();
         }
 
         private void buttonMultiply_Click(object sender, EventArgs e)
         {
             operation = "*";
+            input1 = Convert.ToDouble(textBoxResult.Text);
             SetTextBoxValues();
         }
 
         private void buttonDivide_Click(object sender, EventArgs e)
         {
             operation = "/";
+            input1 = Convert.ToDouble(textBoxResult.Text);
             SetTextBoxValues();
         }
 

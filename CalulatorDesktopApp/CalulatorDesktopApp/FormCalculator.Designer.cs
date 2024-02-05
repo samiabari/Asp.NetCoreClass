@@ -42,7 +42,6 @@
             labelResult = new Label();
             textBoxInput = new TextBox();
             textBoxResult = new TextBox();
-            textBoxResult.Text = "0";
             buttonC = new Button();
             buttonCE = new Button();
             buttonPoint = new Button();
@@ -50,6 +49,7 @@
             buttonMinus = new Button();
             buttonMultiply = new Button();
             buttonDivide = new Button();
+            buttonEqual = new Button();
             SuspendLayout();
             // 
             // button1
@@ -234,6 +234,7 @@
             buttonMinus.TabIndex = 18;
             buttonMinus.Text = "-";
             buttonMinus.UseVisualStyleBackColor = true;
+            buttonMinus.Click += buttonMinus_Click;
             // 
             // buttonMultiply
             // 
@@ -243,6 +244,7 @@
             buttonMultiply.TabIndex = 19;
             buttonMultiply.Text = "*";
             buttonMultiply.UseVisualStyleBackColor = true;
+            buttonMultiply.Click += buttonMultiply_Click;
             // 
             // buttonDivide
             // 
@@ -252,12 +254,24 @@
             buttonDivide.TabIndex = 20;
             buttonDivide.Text = "/";
             buttonDivide.UseVisualStyleBackColor = true;
+            buttonDivide.Click += buttonDivide_Click;
+            // 
+            // buttonEqual
+            // 
+            buttonEqual.Location = new Point(396, 158);
+            buttonEqual.Name = "buttonEqual";
+            buttonEqual.Size = new Size(94, 29);
+            buttonEqual.TabIndex = 21;
+            buttonEqual.Text = "=";
+            buttonEqual.UseVisualStyleBackColor = true;
+            buttonEqual.Click += buttonEqual_Click;
             // 
             // FormCalculator
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(529, 450);
+            Controls.Add(buttonEqual);
             Controls.Add(buttonDivide);
             Controls.Add(buttonMultiply);
             Controls.Add(buttonMinus);
@@ -308,5 +322,6 @@
         private Button buttonMinus;
         private Button buttonMultiply;
         private Button buttonDivide;
+        private Button buttonEqual;
     }
 }

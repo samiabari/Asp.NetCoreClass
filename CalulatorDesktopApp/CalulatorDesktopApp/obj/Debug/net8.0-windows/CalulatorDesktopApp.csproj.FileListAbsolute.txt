@@ -1,0 +1,17 @@
+D:\practiceCSharp\DotNetCore\Class\Asp.NetCoreClass\CalulatorDesktopApp\CalulatorDesktopApp\bin\Debug\net8.0-windows\CalulatorDesktopApp.exe
+D:\practiceCSharp\DotNetCore\Class\Asp.NetCoreClass\CalulatorDesktopApp\CalulatorDesktopApp\bin\Debug\net8.0-windows\CalulatorDesktopApp.deps.json
+D:\practiceCSharp\DotNetCore\Class\Asp.NetCoreClass\CalulatorDesktopApp\CalulatorDesktopApp\bin\Debug\net8.0-windows\CalulatorDesktopApp.runtimeconfig.json
+D:\practiceCSharp\DotNetCore\Class\Asp.NetCoreClass\CalulatorDesktopApp\CalulatorDesktopApp\bin\Debug\net8.0-windows\CalulatorDesktopApp.dll
+D:\practiceCSharp\DotNetCore\Class\Asp.NetCoreClass\CalulatorDesktopApp\CalulatorDesktopApp\bin\Debug\net8.0-windows\CalulatorDesktopApp.pdb
+D:\practiceCSharp\DotNetCore\Class\Asp.NetCoreClass\CalulatorDesktopApp\CalulatorDesktopApp\obj\Debug\net8.0-windows\CalulatorDesktopApp.FormCalculator.resources
+D:\practiceCSharp\DotNetCore\Class\Asp.NetCoreClass\CalulatorDesktopApp\CalulatorDesktopApp\obj\Debug\net8.0-windows\CalulatorDesktopApp.csproj.GenerateResource.cache
+D:\practiceCSharp\DotNetCore\Class\Asp.NetCoreClass\CalulatorDesktopApp\CalulatorDesktopApp\obj\Debug\net8.0-windows\CalulatorDesktopApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\practiceCSharp\DotNetCore\Class\Asp.NetCoreClass\CalulatorDesktopApp\CalulatorDesktopApp\obj\Debug\net8.0-windows\CalulatorDesktopApp.AssemblyInfoInputs.cache
+D:\practiceCSharp\DotNetCore\Class\Asp.NetCoreClass\CalulatorDesktopApp\CalulatorDesktopApp\obj\Debug\net8.0-windows\CalulatorDesktopApp.AssemblyInfo.cs
+D:\practiceCSharp\DotNetCore\Class\Asp.NetCoreClass\CalulatorDesktopApp\CalulatorDesktopApp\obj\Debug\net8.0-windows\CalulatorDesktopApp.csproj.CoreCompileInputs.cache
+D:\practiceCSharp\DotNetCore\Class\Asp.NetCoreClass\CalulatorDesktopApp\CalulatorDesktopApp\obj\Debug\net8.0-windows\CalulatorDesktopApp.sourcelink.json
+D:\practiceCSharp\DotNetCore\Class\Asp.NetCoreClass\CalulatorDesktopApp\CalulatorDesktopApp\obj\Debug\net8.0-windows\CalulatorDesktopApp.dll
+D:\practiceCSharp\DotNetCore\Class\Asp.NetCoreClass\CalulatorDesktopApp\CalulatorDesktopApp\obj\Debug\net8.0-windows\refint\CalulatorDesktopApp.dll
+D:\practiceCSharp\DotNetCore\Class\Asp.NetCoreClass\CalulatorDesktopApp\CalulatorDesktopApp\obj\Debug\net8.0-windows\CalulatorDesktopApp.pdb
+D:\practiceCSharp\DotNetCore\Class\Asp.NetCoreClass\CalulatorDesktopApp\CalulatorDesktopApp\obj\Debug\net8.0-windows\CalulatorDesktopApp.genruntimeconfig.cache
+D:\practiceCSharp\DotNetCore\Class\Asp.NetCoreClass\CalulatorDesktopApp\CalulatorDesktopApp\obj\Debug\net8.0-windows\ref\CalulatorDesktopApp.dll

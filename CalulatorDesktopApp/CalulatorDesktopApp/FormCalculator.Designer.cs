@@ -42,6 +42,14 @@
             labelResult = new Label();
             textBoxInput = new TextBox();
             textBoxResult = new TextBox();
+            textBoxResult.Text = "0";
+            buttonC = new Button();
+            buttonCE = new Button();
+            buttonPoint = new Button();
+            buttonPlus = new Button();
+            buttonMinus = new Button();
+            buttonMultiply = new Button();
+            buttonDivide = new Button();
             SuspendLayout();
             // 
             // button1
@@ -52,6 +60,7 @@
             button1.TabIndex = 0;
             button1.Text = "1";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
@@ -61,6 +70,7 @@
             button2.TabIndex = 1;
             button2.Text = "2";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // button3
             // 
@@ -70,6 +80,7 @@
             button3.TabIndex = 2;
             button3.Text = "3";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // button4
             // 
@@ -79,6 +90,7 @@
             button4.TabIndex = 3;
             button4.Text = "4";
             button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
             // 
             // button5
             // 
@@ -88,6 +100,7 @@
             button5.TabIndex = 4;
             button5.Text = "5";
             button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
             // 
             // button6
             // 
@@ -97,6 +110,7 @@
             button6.TabIndex = 5;
             button6.Text = "6";
             button6.UseVisualStyleBackColor = true;
+            button6.Click += button6_Click;
             // 
             // button7
             // 
@@ -106,6 +120,7 @@
             button7.TabIndex = 6;
             button7.Text = "7";
             button7.UseVisualStyleBackColor = true;
+            button7.Click += button7_Click;
             // 
             // button8
             // 
@@ -115,6 +130,7 @@
             button8.TabIndex = 7;
             button8.Text = "8";
             button8.UseVisualStyleBackColor = true;
+            button8.Click += button8_Click;
             // 
             // button9
             // 
@@ -124,6 +140,7 @@
             button9.TabIndex = 8;
             button9.Text = "9";
             button9.UseVisualStyleBackColor = true;
+            button9.Click += button9_Click;
             // 
             // button0
             // 
@@ -133,6 +150,7 @@
             button0.TabIndex = 9;
             button0.Text = "0";
             button0.UseVisualStyleBackColor = true;
+            button0.Click += button0_Click;
             // 
             // labelInput
             // 
@@ -168,11 +186,85 @@
             textBoxResult.Size = new Size(370, 34);
             textBoxResult.TabIndex = 13;
             // 
+            // buttonC
+            // 
+            buttonC.Location = new Point(131, 409);
+            buttonC.Name = "buttonC";
+            buttonC.Size = new Size(94, 29);
+            buttonC.TabIndex = 14;
+            buttonC.Text = "C";
+            buttonC.UseVisualStyleBackColor = true;
+            buttonC.Click += buttonC_Click;
+            // 
+            // buttonCE
+            // 
+            buttonCE.Location = new Point(276, 409);
+            buttonCE.Name = "buttonCE";
+            buttonCE.Size = new Size(94, 29);
+            buttonCE.TabIndex = 15;
+            buttonCE.Text = "CE";
+            buttonCE.UseVisualStyleBackColor = true;
+            buttonCE.Click += buttonCE_Click;
+            // 
+            // buttonPoint
+            // 
+            buttonPoint.Location = new Point(396, 409);
+            buttonPoint.Name = "buttonPoint";
+            buttonPoint.Size = new Size(94, 29);
+            buttonPoint.TabIndex = 16;
+            buttonPoint.Text = ".";
+            buttonPoint.UseVisualStyleBackColor = true;
+            buttonPoint.Click += buttonPoint_Click;
+            // 
+            // buttonPlus
+            // 
+            buttonPlus.Location = new Point(396, 351);
+            buttonPlus.Name = "buttonPlus";
+            buttonPlus.Size = new Size(94, 29);
+            buttonPlus.TabIndex = 17;
+            buttonPlus.Text = "+";
+            buttonPlus.UseVisualStyleBackColor = true;
+            buttonPlus.Click += buttonPlus_Click;
+            // 
+            // buttonMinus
+            // 
+            buttonMinus.Location = new Point(396, 305);
+            buttonMinus.Name = "buttonMinus";
+            buttonMinus.Size = new Size(94, 29);
+            buttonMinus.TabIndex = 18;
+            buttonMinus.Text = "-";
+            buttonMinus.UseVisualStyleBackColor = true;
+            // 
+            // buttonMultiply
+            // 
+            buttonMultiply.Location = new Point(396, 255);
+            buttonMultiply.Name = "buttonMultiply";
+            buttonMultiply.Size = new Size(94, 29);
+            buttonMultiply.TabIndex = 19;
+            buttonMultiply.Text = "*";
+            buttonMultiply.UseVisualStyleBackColor = true;
+            // 
+            // buttonDivide
+            // 
+            buttonDivide.Location = new Point(396, 208);
+            buttonDivide.Name = "buttonDivide";
+            buttonDivide.Size = new Size(94, 29);
+            buttonDivide.TabIndex = 20;
+            buttonDivide.Text = "/";
+            buttonDivide.UseVisualStyleBackColor = true;
+            // 
             // FormCalculator
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(529, 450);
+            Controls.Add(buttonDivide);
+            Controls.Add(buttonMultiply);
+            Controls.Add(buttonMinus);
+            Controls.Add(buttonPlus);
+            Controls.Add(buttonPoint);
+            Controls.Add(buttonCE);
+            Controls.Add(buttonC);
             Controls.Add(textBoxResult);
             Controls.Add(textBoxInput);
             Controls.Add(labelResult);
@@ -209,5 +301,12 @@
         private Label labelResult;
         private TextBox textBoxInput;
         private TextBox textBoxResult;
+        private Button buttonC;
+        private Button buttonCE;
+        private Button buttonPoint;
+        private Button buttonPlus;
+        private Button buttonMinus;
+        private Button buttonMultiply;
+        private Button buttonDivide;
     }
 }

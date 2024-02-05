@@ -5,7 +5,7 @@ namespace CalulatorDesktopApp
         string data;
         int length;
         string operation;
-        double total = 0;
+        double total = 0, input1 = 0, input2=0;
         public FormCalculator()
         {
             InitializeComponent();
@@ -85,8 +85,8 @@ namespace CalulatorDesktopApp
         {
            
             operation = "+";
+            input1 = Convert.ToDouble(textBoxResult.Text);
             SetTextBoxValues();
-            
 
         }
 
@@ -121,7 +121,30 @@ namespace CalulatorDesktopApp
         private void buttonEqual_Click(object sender, EventArgs e)
         {
             textBoxInput.Clear();
+            input2 = Convert.ToDouble(textBoxResult.Text);
+            Calculate();
             textBoxResult.Text = total.ToString();
+        }
+
+        private void Calculate()
+        {
+            if (operation == "/")
+            {
+                total = input1 / input2;
+            }
+            else if (operation == "+")
+            {
+                total = input1 + input2;
+            }
+            else if (operation == "-")
+            {
+                total = input1 - input2;
+            }
+            else if (operation == "*")
+            {
+                total = input1 * input2;
+            }
+            
         }
     }
 }

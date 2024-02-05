@@ -54,9 +54,9 @@
             // 
             // button1
             // 
-            button1.Location = new Point(15, 219);
+            button1.Location = new Point(12, 248);
             button1.Name = "button1";
-            button1.Size = new Size(94, 29);
+            button1.Size = new Size(52, 52);
             button1.TabIndex = 0;
             button1.Text = "1";
             button1.UseVisualStyleBackColor = true;
@@ -64,9 +64,9 @@
             // 
             // button2
             // 
-            button2.Location = new Point(131, 219);
+            button2.Location = new Point(70, 248);
             button2.Name = "button2";
-            button2.Size = new Size(94, 29);
+            button2.Size = new Size(52, 52);
             button2.TabIndex = 1;
             button2.Text = "2";
             button2.UseVisualStyleBackColor = true;
@@ -74,9 +74,9 @@
             // 
             // button3
             // 
-            button3.Location = new Point(276, 219);
+            button3.Location = new Point(131, 248);
             button3.Name = "button3";
-            button3.Size = new Size(94, 29);
+            button3.Size = new Size(52, 52);
             button3.TabIndex = 2;
             button3.Text = "3";
             button3.UseVisualStyleBackColor = true;
@@ -84,9 +84,9 @@
             // 
             // button4
             // 
-            button4.Location = new Point(15, 286);
+            button4.Location = new Point(12, 315);
             button4.Name = "button4";
-            button4.Size = new Size(94, 29);
+            button4.Size = new Size(52, 52);
             button4.TabIndex = 3;
             button4.Text = "4";
             button4.UseVisualStyleBackColor = true;
@@ -94,9 +94,9 @@
             // 
             // button5
             // 
-            button5.Location = new Point(131, 286);
+            button5.Location = new Point(70, 315);
             button5.Name = "button5";
-            button5.Size = new Size(94, 29);
+            button5.Size = new Size(52, 52);
             button5.TabIndex = 4;
             button5.Text = "5";
             button5.UseVisualStyleBackColor = true;
@@ -104,9 +104,9 @@
             // 
             // button6
             // 
-            button6.Location = new Point(276, 286);
+            button6.Location = new Point(131, 315);
             button6.Name = "button6";
-            button6.Size = new Size(94, 29);
+            button6.Size = new Size(52, 52);
             button6.TabIndex = 5;
             button6.Text = "6";
             button6.UseVisualStyleBackColor = true;
@@ -114,9 +114,9 @@
             // 
             // button7
             // 
-            button7.Location = new Point(15, 351);
+            button7.Location = new Point(12, 380);
             button7.Name = "button7";
-            button7.Size = new Size(94, 29);
+            button7.Size = new Size(52, 52);
             button7.TabIndex = 6;
             button7.Text = "7";
             button7.UseVisualStyleBackColor = true;
@@ -124,9 +124,9 @@
             // 
             // button8
             // 
-            button8.Location = new Point(131, 351);
+            button8.Location = new Point(70, 380);
             button8.Name = "button8";
-            button8.Size = new Size(94, 29);
+            button8.Size = new Size(52, 52);
             button8.TabIndex = 7;
             button8.Text = "8";
             button8.UseVisualStyleBackColor = true;
@@ -134,9 +134,9 @@
             // 
             // button9
             // 
-            button9.Location = new Point(276, 351);
+            button9.Location = new Point(131, 380);
             button9.Name = "button9";
-            button9.Size = new Size(94, 29);
+            button9.Size = new Size(52, 52);
             button9.TabIndex = 8;
             button9.Text = "9";
             button9.UseVisualStyleBackColor = true;
@@ -144,9 +144,9 @@
             // 
             // button0
             // 
-            button0.Location = new Point(15, 409);
+            button0.Location = new Point(189, 315);
             button0.Name = "button0";
-            button0.Size = new Size(94, 29);
+            button0.Size = new Size(52, 52);
             button0.TabIndex = 9;
             button0.Text = "0";
             button0.UseVisualStyleBackColor = true;
@@ -155,7 +155,7 @@
             // labelInput
             // 
             labelInput.AutoSize = true;
-            labelInput.Location = new Point(15, 9);
+            labelInput.Location = new Point(12, 12);
             labelInput.Name = "labelInput";
             labelInput.Size = new Size(43, 20);
             labelInput.TabIndex = 10;
@@ -164,7 +164,7 @@
             // labelResult
             // 
             labelResult.AutoSize = true;
-            labelResult.Location = new Point(15, 101);
+            labelResult.Location = new Point(12, 97);
             labelResult.Name = "labelResult";
             labelResult.Size = new Size(49, 20);
             labelResult.TabIndex = 11;
@@ -172,25 +172,25 @@
             // 
             // textBoxInput
             // 
-            textBoxInput.Location = new Point(15, 48);
+            textBoxInput.Location = new Point(11, 49);
             textBoxInput.Multiline = true;
             textBoxInput.Name = "textBoxInput";
-            textBoxInput.Size = new Size(370, 34);
+            textBoxInput.Size = new Size(290, 34);
             textBoxInput.TabIndex = 12;
             // 
             // textBoxResult
             // 
-            textBoxResult.Location = new Point(15, 141);
+            textBoxResult.Location = new Point(12, 132);
             textBoxResult.Multiline = true;
             textBoxResult.Name = "textBoxResult";
-            textBoxResult.Size = new Size(370, 34);
+            textBoxResult.Size = new Size(289, 34);
             textBoxResult.TabIndex = 13;
             // 
             // buttonC
             // 
-            buttonC.Location = new Point(131, 409);
+            buttonC.Location = new Point(70, 183);
             buttonC.Name = "buttonC";
-            buttonC.Size = new Size(94, 29);
+            buttonC.Size = new Size(52, 52);
             buttonC.TabIndex = 14;
             buttonC.Text = "C";
             buttonC.UseVisualStyleBackColor = true;
@@ -198,9 +198,9 @@
             // 
             // buttonCE
             // 
-            buttonCE.Location = new Point(276, 409);
+            buttonCE.Location = new Point(131, 183);
             buttonCE.Name = "buttonCE";
-            buttonCE.Size = new Size(94, 29);
+            buttonCE.Size = new Size(52, 52);
             buttonCE.TabIndex = 15;
             buttonCE.Text = "CE";
             buttonCE.UseVisualStyleBackColor = true;
@@ -208,9 +208,9 @@
             // 
             // buttonPoint
             // 
-            buttonPoint.Location = new Point(396, 409);
+            buttonPoint.Location = new Point(189, 380);
             buttonPoint.Name = "buttonPoint";
-            buttonPoint.Size = new Size(94, 29);
+            buttonPoint.Size = new Size(52, 52);
             buttonPoint.TabIndex = 16;
             buttonPoint.Text = ".";
             buttonPoint.UseVisualStyleBackColor = true;
@@ -218,9 +218,9 @@
             // 
             // buttonPlus
             // 
-            buttonPlus.Location = new Point(396, 351);
+            buttonPlus.Location = new Point(189, 248);
             buttonPlus.Name = "buttonPlus";
-            buttonPlus.Size = new Size(94, 29);
+            buttonPlus.Size = new Size(52, 52);
             buttonPlus.TabIndex = 17;
             buttonPlus.Text = "+";
             buttonPlus.UseVisualStyleBackColor = true;
@@ -228,9 +228,9 @@
             // 
             // buttonMinus
             // 
-            buttonMinus.Location = new Point(396, 305);
+            buttonMinus.Location = new Point(249, 248);
             buttonMinus.Name = "buttonMinus";
-            buttonMinus.Size = new Size(94, 29);
+            buttonMinus.Size = new Size(52, 52);
             buttonMinus.TabIndex = 18;
             buttonMinus.Text = "-";
             buttonMinus.UseVisualStyleBackColor = true;
@@ -238,9 +238,9 @@
             // 
             // buttonMultiply
             // 
-            buttonMultiply.Location = new Point(396, 255);
+            buttonMultiply.Location = new Point(189, 183);
             buttonMultiply.Name = "buttonMultiply";
-            buttonMultiply.Size = new Size(94, 29);
+            buttonMultiply.Size = new Size(52, 52);
             buttonMultiply.TabIndex = 19;
             buttonMultiply.Text = "*";
             buttonMultiply.UseVisualStyleBackColor = true;
@@ -248,9 +248,9 @@
             // 
             // buttonDivide
             // 
-            buttonDivide.Location = new Point(396, 208);
+            buttonDivide.Location = new Point(247, 183);
             buttonDivide.Name = "buttonDivide";
-            buttonDivide.Size = new Size(94, 29);
+            buttonDivide.Size = new Size(52, 52);
             buttonDivide.TabIndex = 20;
             buttonDivide.Text = "/";
             buttonDivide.UseVisualStyleBackColor = true;
@@ -258,9 +258,9 @@
             // 
             // buttonEqual
             // 
-            buttonEqual.Location = new Point(396, 158);
+            buttonEqual.Location = new Point(249, 315);
             buttonEqual.Name = "buttonEqual";
-            buttonEqual.Size = new Size(94, 29);
+            buttonEqual.Size = new Size(52, 118);
             buttonEqual.TabIndex = 21;
             buttonEqual.Text = "=";
             buttonEqual.UseVisualStyleBackColor = true;
@@ -270,7 +270,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(529, 450);
+            ClientSize = new Size(315, 443);
             Controls.Add(buttonEqual);
             Controls.Add(buttonDivide);
             Controls.Add(buttonMultiply);

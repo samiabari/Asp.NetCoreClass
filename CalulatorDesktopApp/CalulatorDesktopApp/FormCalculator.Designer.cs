@@ -172,6 +172,7 @@
             // 
             // textBoxInput
             // 
+            textBoxInput.Enabled = false;
             textBoxInput.Location = new Point(11, 49);
             textBoxInput.Multiline = true;
             textBoxInput.Name = "textBoxInput";
